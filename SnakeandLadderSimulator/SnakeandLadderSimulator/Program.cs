@@ -9,6 +9,8 @@ namespace SnakeAndLadder
             Console.WriteLine("Welcome to Snake and Ladder Simulator Program");
             DiceRolled num = new DiceRolled();
             num.Dice();
+            CheckForOption checkForOption = new CheckForOption();
+            checkForOption.Option();
         }
     }
 }
